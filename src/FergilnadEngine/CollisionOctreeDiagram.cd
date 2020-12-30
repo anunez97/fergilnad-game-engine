@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CollisionOctree">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJAAACAIAAIoBAWAAAsIAAAAAIBAAgAACBAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionOctree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeNode">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="OctreeNode::BoundingArea">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\OctreeNode.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIQIAGAkBALJBBAAgAEAAAAgBYQAIgAACDgiIUAAAAI=</HashCode>
+      <FileName>Fergilnad Engine\OctreeNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager">
+    <Position X="5.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Method Name="~CollisionManager" Hidden="true" />
+      <Field Name="ColGroupCollection" Hidden="true" />
+      <Method Name="CollisionManager" Hidden="true" />
+      <Field Name="colTestCommands" Hidden="true" />
+      <Field Name="FGN_UNDEFINED" Hidden="true" />
+      <Method Name="GetColGroup" Hidden="true" />
+      <Method Name="GetTypeID" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="ProcessCollisions" Hidden="true" />
+      <Method Name="SetCollisionPair" Hidden="true" />
+      <Method Name="SetCollisionSelf" Hidden="true" />
+      <Method Name="SetCollisionTerrain" Hidden="true" />
+      <Method Name="SetGroupForTypeID" Hidden="true" />
+      <Field Name="TypeIDNextNumber" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAIQJCADAAQAAAAAAAAggCAAAAgoICAAIQ=</HashCode>
+      <FileName>Fergilnad Engine\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collidable">
+    <Position X="8.5" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="~Collidable" Hidden="true" />
+      <Method Name="Collidable" Hidden="true" />
+      <Method Name="Collision" Hidden="true" />
+      <Method Name="CollisionTerrain" Hidden="true" />
+      <Method Name="GetCollisionSphere" Hidden="true" />
+      <Method Name="GetCollisionVolume" Hidden="true" />
+      <Field Name="myID" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Field Name="pAABB" Hidden="true" />
+      <Field Name="pBSphere" Hidden="true" />
+      <Field Name="pColModel" Hidden="true" />
+      <Field Name="pColVolume" Hidden="true" />
+      <Field Name="pDeleteRef" Hidden="true" />
+      <Field Name="pDeregCmd" Hidden="true" />
+      <Field Name="pOBB" Hidden="true" />
+      <Field Name="pRegCmd" Hidden="true" />
+      <Field Name="RegStateCurr" Hidden="true" />
+      <Method Name="SceneDeregistration" Hidden="true" />
+      <Method Name="SceneRegistration" Hidden="true" />
+      <Method Name="SetColliderModel" Hidden="true" />
+      <Method Name="SubmitCollisionDeregistration" Hidden="true" />
+      <Method Name="SubmitCollisionRegistration" Hidden="true" />
+      <Method Name="UpdateCollisionData" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Collidable::VolumeType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\Collidable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Collidable::OctreeData">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\Collidable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>JAAAAAICAIAIoACAQAACKAEDAAAAAQECAHkgMAAAiAA=</HashCode>
+      <FileName>Fergilnad Engine\Collidable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreePairTestCommand">
+    <Position X="10.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAgAQAAAAAAAAAAAAAgQAAAAAwAAAQAAA=</HashCode>
+      <FileName>Fergilnad Engine\OctreePairTestCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeSelfTestCommand">
+    <Position X="13.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAAgAQAAAAAAAAAAAAAAQAAAAAwAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\OctreeSelfTestCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeTestCommandBase" Collapsed="true">
+    <Position X="12" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAABAAAAAAQAAAAggAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\OctreeTestCommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrimBranchCommand">
+    <Position X="10.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIQAAAAACAAIEAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\TrimBranchCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene">
+    <Position X="5.5" Y="3" Width="2.5" />
+    <Members>
+      <Method Name="~Scene" Hidden="true" />
+      <Method Name="Deregister" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="GetCurrent2DCamera" Hidden="true" />
+      <Method Name="GetCurrentCamera" Hidden="true" />
+      <Method Name="GetTerrain" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="Register" Hidden="true" />
+      <Method Name="Scene" Hidden="true" />
+      <Method Name="SceneEnd" Hidden="true" />
+      <Method Name="SetCollisionPair" Hidden="true" />
+      <Method Name="SetCollisionSelf" Hidden="true" />
+      <Method Name="SetCollisionTerrain" Hidden="true" />
+      <Method Name="SetCurrentCamera" Hidden="true" />
+      <Method Name="SetTerrain" Hidden="true" />
+      <Method Name="SubmitCommand" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="UpdateCameraPos" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAQEEgAgAgABB4QAgAAECAAAQAIBAAAAgAAgwQAAAEQ=</HashCode>
+      <FileName>Fergilnad Engine\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeNodeAttorney">
+    <Position X="0.5" Y="4.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OctreeNodeAttorney::CollisionTest">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\OctreeNodeAttorney.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\OctreeNodeAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

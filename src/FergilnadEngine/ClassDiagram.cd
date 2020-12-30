@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Asset Managers">
+    <Position X="0.5" Y="0.5" Height="0.302" Width="1.7" />
+  </Comment>
+  <Comment CommentText="GameObject">
+    <Position X="0.5" Y="10.531" Height="0.344" Width="1.7" />
+  </Comment>
+  <Comment CommentText="GameObject Managers">
+    <Position X="14" Y="10.417" Height="0.417" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Scene Registration Commands">
+    <Position X="13.417" Y="15.292" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Scene">
+    <Position X="0.5" Y="19.917" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Time Manager">
+    <Position X="6.729" Y="23.875" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="ModelManager">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAgAAAIAAQBAABAAAABAAAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\ModelManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderManager">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAgAAAICAARAAAAAAABAAAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureManager">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAAIAAABBBAAAAABABAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\TextureManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraManager">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABgAAAAAAgAAAAAABAAAIIAAAAAAAAgAAAiAAA=</HashCode>
+      <FileName>Fergilnad Engine\CameraManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fergilnad">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAEAAAAAAAAwABAIAAAAhgAAAAAAAAYAAgAlBAAAY=</HashCode>
+      <FileName>Fergilnad Engine\Fergilnad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Alarmable">
+    <Position X="0.5" Y="11" Width="2.25" />
+    <NestedTypes>
+      <Struct Name="Alarmable::RegistrationData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\Alarmable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAUAAEAABAAACAAABAAAAAAAABkAAACAgA=</HashCode>
+      <FileName>Fergilnad Engine\Alarmable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collidable">
+    <Position X="3" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAAIAAoAAAYAACKAEBAAAAAQAAAHCgIAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\Collidable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Drawable">
+    <Position X="5.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAgAAgAAAABABAABAAAAAAAAwFAgIAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\Drawable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inputable">
+    <Position X="8" Y="11" Width="2" />
+    <NestedTypes>
+      <Struct Name="Inputable::RegistrationData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\Inputable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAQCAAAAAAAAAAAAAAQBAAgAEAgIFBAAAA=</HashCode>
+      <FileName>Fergilnad Engine\Inputable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Updatable">
+    <Position X="10.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAABAABAAAABAAAAAAAEQFAgIAAAAAE=</HashCode>
+      <FileName>Fergilnad Engine\Updatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="5.5" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABAAAAAAAAAAAAABCAAAABAQABJAgAAIAAAA=</HashCode>
+      <FileName>Fergilnad Engine\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmableManager">
+    <Position X="14" Y="11" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="AlarmableManager::ALARM_ID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\AlarmableManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEAAIAAAAAAAAAAAAAIBAAEAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\AlarmableManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager">
+    <Position X="16.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQACADAAQAAAAAAAAggAAAAAgoACAAIQ=</HashCode>
+      <FileName>Fergilnad Engine\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawableManager">
+    <Position X="19" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAABAAAAAAAABAAAABAAAAAAAwAEAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\DrawableManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardEventManager">
+    <Position X="21.5" Y="11" Width="2" />
+    <NestedTypes>
+      <Enum Name="KeyboardEventManager::EVENT_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\KeyboardEventManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAICQAAAAAAAAAAAAAAABAACAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\KeyboardEventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingleKeyEventManager">
+    <Position X="21.5" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AGAAGAAAAAAQAAAAAAAEAAAAAAABAAAACAAgAAAgAAE=</HashCode>
+      <FileName>Fergilnad Engine\SingleKeyEventManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdatableManager">
+    <Position X="23.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAABAAAAAAEAAAAgABAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\UpdatableManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene">
+    <Position X="0.5" Y="20.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQEEgAgAAAABwQAgAAACAAAQAIBAAAAgAAggQAAAEQ=</HashCode>
+      <FileName>Fergilnad Engine\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneRegistrationBroker">
+    <Position X="3" Y="20.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAAAEAAAAAAAAQAAAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\SceneRegistrationBroker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager">
+    <Position X="3" Y="23.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AoQgAAAAAAABAkAgIAAAAABAAAEQAQEAQQAgAQAEAgQ=</HashCode>
+      <FileName>Fergilnad Engine\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneChangeCommandBase" Collapsed="true">
+    <Position X="6.5" Y="20.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\SceneChangeCommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneChangeCommand" Collapsed="true">
+    <Position X="5.25" Y="22" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAAAAAAACAAAAAAACACgAAAEAAA=</HashCode>
+      <FileName>Fergilnad Engine\SceneChangeCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneChangeNullCommand" Collapsed="true">
+    <Position X="7.75" Y="22" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAQEAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\SceneChangeNullCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneRegistrationCommand" Collapsed="true">
+    <Position X="13.25" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\SceneRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateDeregistrationCommand" Collapsed="true">
+    <Position X="12.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAQAAgAAACAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\UpdateDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateRegistrationCommand" Collapsed="true">
+    <Position X="14.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIQAAAAAACAAAAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>Fergilnad Engine\UpdateRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectEntryCommand" Collapsed="true">
+    <Position X="11" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAIQ=</HashCode>
+      <FileName>Fergilnad Engine\GameObjectEntryCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectExitCommand" Collapsed="true">
+    <Position X="16.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAIAAgAAAAAIA=</HashCode>
+      <FileName>Fergilnad Engine\GameObjectExitCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputDeregistrationCommand" Collapsed="true">
+    <Position X="12.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>goBAAAAAAAIAAAQAAgAEAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\InputDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputRegistrationCommand" Collapsed="true">
+    <Position X="14.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>goBAAAAAAAAAABQAAAAEAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\InputRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawDeregistrationCommand" Collapsed="true">
+    <Position X="12.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAARAAAgAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\DrawDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawRegistrationCommand" Collapsed="true">
+    <Position X="14.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAARAAAAAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\DrawRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDeregistrationCommand" Collapsed="true">
+    <Position X="12.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAQAAAgAAAAAAAAAAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionRegistrationCommand" Collapsed="true">
+    <Position X="14.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAgAQAgAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmDeregistrationCommand" Collapsed="true">
+    <Position X="12.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAASAIAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\AlarmDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmRegistrationCommand" Collapsed="true">
+    <Position X="14.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABEAAAAQAAAAAAAAAAAAAAAAAAAAgBAABAQA=</HashCode>
+      <FileName>Fergilnad Engine\AlarmRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeManager">
+    <Position X="6.75" Y="24.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BQCAgAABAAAAAAAAAAEgAgRAAAEAAACAQAEgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\TimeManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FergilnadSprite">
+    <Position X="0.5" Y="29.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAAAAAAAAAQAAAABpCAAAAAggAABAgwEBQBgA=</HashCode>
+      <FileName>Fergilnad Engine\FergilnadSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteFont">
+    <Position X="2.5" Y="29.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgAAAAAAAAACAAAAQAAAAAAIAAACAgAAAFAAA=</HashCode>
+      <FileName>Fergilnad Engine\SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteString">
+    <Position X="4.75" Y="29.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAABAQAQAAAAABAAAAAAgDAABAwAEAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\SpriteString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageManager">
+    <Position X="26.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAggAgAAAAAAABIAAAAAABAAAEAAAAAQgAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\ImageManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteFontManager">
+    <Position X="29" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgEAAAAAABAAAAAAARAAAEAAABAQgAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\SpriteFontManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenLog">
+    <Position X="8.25" Y="29.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAgAEAAAAAAAAAAABAAAkAAAAVQBAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\ScreenLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSphereCmdPool">
+    <Position X="0.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAABAAAgAAAAAAAAEAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>Fergilnad Engine\BSphereCmdPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSphereCommandFactory">
+    <Position X="2.5" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAgAAIAAAAEAAJAAAEAAAAAQAAgIAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\BSphereCommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualizeBSphereCommand">
+    <Position X="4.5" Y="36.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACBBAAAQAAAAAAAAAAAAQAAAAAAAggAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\VisualizeBSphereCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualizeCommandBase" Collapsed="true">
+    <Position X="5.25" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAQAAAAAAAAAAAAAAAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\VisualizeCommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualizer">
+    <Position X="0.5" Y="39.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAAAAEAAAAAAABAAAEIAAAAwEgoAAAAAAg=</HashCode>
+      <FileName>Fergilnad Engine\Visualizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FGNMathTools">
+    <Position X="3" Y="39.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\FGNMathTools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
