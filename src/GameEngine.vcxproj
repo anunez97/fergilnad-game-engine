@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>GameEngine</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";MEMORY_LOGS_DIR=R"($(SolutionDir))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..//src/Freeze frame;..//src/MemTracker;..//src/Fergilnad Engine;$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\File\include;$(SolutionDir)dist\AzulCore\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <ForcedIncludeFiles>Framework.h</ForcedIncludeFiles>
+      <ForcedUsingFiles>
+      </ForcedUsingFiles>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>xmllite.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Fergilnad Engine\AABBCommandFactory.cpp" />
+    <ClCompile Include="Fergilnad Engine\AABBCommandPool.cpp" />
+    <ClCompile Include="Fergilnad Engine\Alarmable.cpp" />
+    <ClCompile Include="Fergilnad Engine\AlarmableManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\AlarmDeregistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\AlarmRegistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\AlarmRestartCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\BSphereCmdPool.cpp" />
+    <ClCompile Include="Fergilnad Engine\BSphereCommandFactory.cpp" />
+    <ClCompile Include="Fergilnad Engine\CameraManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\Collidable.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollidableGroup.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionDeregistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionOctree.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionRegistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionTestPairCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionTestSelfCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionTestTerrain.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionVolumeAABB.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionVolumeBSphere.cpp" />
+    <ClCompile Include="Fergilnad Engine\CollisionVolumeOBB.cpp" />
+    <ClCompile Include="Fergilnad Engine\Drawable.cpp" />
+    <ClCompile Include="Fergilnad Engine\DrawableManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\DrawDeregistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\DrawRegistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\Fergilnad.cpp" />
+    <ClCompile Include="Fergilnad Engine\FergilnadSprite.cpp" />
+    <ClCompile Include="Fergilnad Engine\FGNMathTools.cpp" />
+    <ClCompile Include="Fergilnad Engine\GameObject.cpp" />
+    <ClCompile Include="Fergilnad Engine\GameObjectEntryCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\GameObjectExitCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\GodCam.cpp" />
+    <ClCompile Include="Fergilnad Engine\ImageManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\Inputable.cpp" />
+    <ClCompile Include="Fergilnad Engine\InputDeregistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\InputRegistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\KeyboardEventManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\main.cpp" />
+    <ClCompile Include="Fergilnad Engine\ModelManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\OctreeNode.cpp" />
+    <ClCompile Include="Fergilnad Engine\OctreePairTestCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\OctreeSelfTestCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\Scene.cpp" />
+    <ClCompile Include="Fergilnad Engine\SceneChangeCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\SceneManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\SceneRegistrationBroker.cpp" />
+    <ClCompile Include="Fergilnad Engine\ScreenLog.cpp" />
+    <ClCompile Include="Fergilnad Engine\ShaderManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\SingleKeyEventManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\SpriteFont.cpp" />
+    <ClCompile Include="Fergilnad Engine\SpriteFontManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\SpriteString.cpp" />
+    <ClCompile Include="Fergilnad Engine\Terrain.cpp" />
+    <ClCompile Include="Fergilnad Engine\TerrainManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\TerrainRectangleArea.cpp" />
+    <ClCompile Include="Fergilnad Engine\TextureManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\TimeManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\TRAIterator.cpp" />
+    <ClCompile Include="Fergilnad Engine\TrimBranchCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\Updatable.cpp" />
+    <ClCompile Include="Fergilnad Engine\UpdatableManager.cpp" />
+    <ClCompile Include="Fergilnad Engine\UpdateDeregistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\UpdateRegistrationCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\VisualizeAABBCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\VisualizeBSphereCommand.cpp" />
+    <ClCompile Include="Fergilnad Engine\Visualizer.cpp" />
+    <ClCompile Include="Fergilnad Resources\GameEnd.cpp" />
+    <ClCompile Include="Fergilnad Resources\GameInitialization.cpp" />
+    <ClCompile Include="Fergilnad Resources\LoadResources.cpp" />
+    <ClCompile Include="Freeze frame\FreezeTime.cpp" />
+    <ClCompile Include="User Code\Axis.cpp" />
+    <ClCompile Include="User Code\Bullet.cpp" />
+    <ClCompile Include="User Code\BulletAOE.cpp" />
+    <ClCompile Include="User Code\BulletAOEFactory.cpp" />
+    <ClCompile Include="User Code\BulletAOEObjectPool.cpp" />
+    <ClCompile Include="User Code\BulletFactory.cpp" />
+    <ClCompile Include="User Code\BulletObjectPool.cpp" />
+    <ClCompile Include="User Code\CentralGameManager.cpp" />
+    <ClCompile Include="User Code\ChaseAI.cpp" />
+    <ClCompile Include="User Code\EnemyBullet.cpp" />
+    <ClCompile Include="User Code\EnemyManager.cpp" />
+    <ClCompile Include="User Code\EnemyTank.cpp" />
+    <ClCompile Include="User Code\EnemyTankFactory.cpp" />
+    <ClCompile Include="User Code\EnemyTankObjectPool.cpp" />
+    <ClCompile Include="User Code\Frigate.cpp" />
+    <ClCompile Include="User Code\FrigateBSphere.cpp" />
+    <ClCompile Include="User Code\HealthDisplay.cpp" />
+    <ClCompile Include="User Code\HUD.cpp" />
+    <ClCompile Include="User Code\KeyboardController.cpp" />
+    <ClCompile Include="User Code\KeyStateTest.cpp" />
+    <ClCompile Include="User Code\LevelCompleteDisplay.cpp" />
+    <ClCompile Include="User Code\LevelManager.cpp" />
+    <ClCompile Include="User Code\LevelOne.cpp" />
+    <ClCompile Include="User Code\LevelTransition.cpp" />
+    <ClCompile Include="User Code\LevelTwo.cpp" />
+    <ClCompile Include="User Code\LongRangeAI.cpp" />
+    <ClCompile Include="User Code\ObjectiveDisplay.cpp" />
+    <ClCompile Include="User Code\PatrolAI.cpp" />
+    <ClCompile Include="User Code\PlayerManager.cpp" />
+    <ClCompile Include="User Code\PlayerTank.cpp" />
+    <ClCompile Include="User Code\RadarDisplay.cpp" />
+    <ClCompile Include="User Code\ReloadDisplay.cpp" />
+    <ClCompile Include="User Code\ReticleDisplay.cpp" />
+    <ClCompile Include="User Code\SceneDemo.cpp" />
+    <ClCompile Include="User Code\SceneOctreeTest.cpp" />
+    <ClCompile Include="User Code\SceneTest.cpp" />
+    <ClCompile Include="User Code\ScoreDisplay.cpp" />
+    <ClCompile Include="User Code\ScoreManager.cpp" />
+    <ClCompile Include="User Code\PlayerBullet.cpp" />
+    <ClCompile Include="User Code\SpriteTest.cpp" />
+    <ClCompile Include="User Code\Tank.cpp" />
+    <ClCompile Include="User Code\Tester.cpp" />
+    <ClCompile Include="User Code\TransitionController.cpp" />
+    <ClCompile Include="User Code\WorldPlane.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h" />
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Image.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h" />
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Model.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h" />
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h" />
+    <ClInclude Include="..\dist\File\include\File.h" />
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\dist\Math\include\Align16.h" />
+    <ClInclude Include="..\dist\Math\include\Constants.h" />
+    <ClInclude Include="..\dist\Math\include\Enum.h" />
+    <ClInclude Include="..\dist\Math\include\MathApp.h" />
+    <ClInclude Include="..\dist\Math\include\MathEngine.h" />
+    <ClInclude Include="..\dist\Math\include\Matrix.h" />
+    <ClInclude Include="..\dist\Math\include\Quat.h" />
+    <ClInclude Include="..\dist\Math\include\QuatApp.h" />
+    <ClInclude Include="..\dist\Math\include\Util.h" />
+    <ClInclude Include="..\dist\Math\include\Vect.h" />
+    <ClInclude Include="..\dist\Math\include\VectApp.h" />
+    <ClInclude Include="..\dist\SB6\include\arcball.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h" />
+    <ClInclude Include="..\dist\SB6\include\object.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h" />
+    <ClInclude Include="..\dist\SB6\include\shader.h" />
+    <ClInclude Include="..\dist\SB6\include\vmath.h" />
+    <ClInclude Include="Fergilnad Engine\AABBCommandPool.h" />
+    <ClInclude Include="Fergilnad Engine\AABBCommandFactory.h" />
+    <ClInclude Include="Fergilnad Engine\Alarmable.h" />
+    <ClInclude Include="Fergilnad Engine\AlarmableAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\AlarmableManager.h" />
+    <ClInclude Include="Fergilnad Engine\AlarmDeregistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\AlarmRegistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\AlarmRestartCommand.h" />
+    <ClInclude Include="Fergilnad Engine\BSphereCmdPool.h" />
+    <ClInclude Include="Fergilnad Engine\BSphereCommandFactory.h" />
+    <ClInclude Include="Fergilnad Engine\CameraManager.h" />
+    <ClInclude Include="Fergilnad Engine\Collidable.h" />
+    <ClInclude Include="Fergilnad Engine\CollidableAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\CollidableGroup.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionDeregistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionDispatch.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionDispatchBase.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionManager.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionOctree.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionRegistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionTestCommandBase.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionTestPairCommand.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionTestSelfCommand.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionTestTerrain.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionVolume.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeAABB.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeBoundingBoxBase.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeBSphere.h" />
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeOBB.h" />
+    <ClInclude Include="Fergilnad Engine\Color.h" />
+    <ClInclude Include="Fergilnad Engine\CommandBase.h" />
+    <ClInclude Include="Fergilnad Engine\Drawable.h" />
+    <ClInclude Include="Fergilnad Engine\DrawableAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\DrawableManager.h" />
+    <ClInclude Include="Fergilnad Engine\DrawDeregistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\DrawRegistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\Fergilnad.h" />
+    <ClInclude Include="Fergilnad Engine\FergilnadAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\FergilnadSprite.h" />
+    <ClInclude Include="Fergilnad Engine\FGNMathTools.h" />
+    <ClInclude Include="Fergilnad Engine\GameObject.h" />
+    <ClInclude Include="Fergilnad Engine\GameObjectAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\GameObjectEntryCommand.h" />
+    <ClInclude Include="Fergilnad Engine\GameObjectExitCommand.h" />
+    <ClInclude Include="Fergilnad Engine\GodCam.h" />
+    <ClInclude Include="Fergilnad Engine\ImageManager.h" />
+    <ClInclude Include="Fergilnad Engine\ImageManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\Inputable.h" />
+    <ClInclude Include="Fergilnad Engine\InputableAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\InputDeregistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\InputEventType.h" />
+    <ClInclude Include="Fergilnad Engine\InputRegistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\KeyboardEventManager.h" />
+    <ClInclude Include="Fergilnad Engine\ModelManager.h" />
+    <ClInclude Include="Fergilnad Engine\ModelManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\OctreeNode.h" />
+    <ClInclude Include="Fergilnad Engine\OctreeNodeAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\OctreeSelfTestCommand.h" />
+    <ClInclude Include="Fergilnad Engine\OctreePairTestCommand.h" />
+    <ClInclude Include="Fergilnad Engine\OctreeTestCommandBase.h" />
+    <ClInclude Include="Fergilnad Engine\RegistrationState.h" />
+    <ClInclude Include="Fergilnad Engine\Scene.h" />
+    <ClInclude Include="Fergilnad Engine\SceneAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\SceneChangeCommand.h" />
+    <ClInclude Include="Fergilnad Engine\SceneChangeCommandBase.h" />
+    <ClInclude Include="Fergilnad Engine\SceneChangeNullCommand.h" />
+    <ClInclude Include="Fergilnad Engine\SceneManager.h" />
+    <ClInclude Include="Fergilnad Engine\SceneManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\SceneNull.h" />
+    <ClInclude Include="Fergilnad Engine\SceneRegistrationBroker.h" />
+    <ClInclude Include="Fergilnad Engine\SceneRegistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\ScreenLog.h" />
+    <ClInclude Include="Fergilnad Engine\ScreenLogAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\ShaderManager.h" />
+    <ClInclude Include="Fergilnad Engine\ShaderManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\SingleKeyEventManager.h" />
+    <ClInclude Include="Fergilnad Engine\SpriteFont.h" />
+    <ClInclude Include="Fergilnad Engine\SpriteFontManager.h" />
+    <ClInclude Include="Fergilnad Engine\SpriteFontManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\SpriteString.h" />
+    <ClInclude Include="Fergilnad Engine\Terrain.h" />
+    <ClInclude Include="Fergilnad Engine\TerrainManager.h" />
+    <ClInclude Include="Fergilnad Engine\TerrainManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\TerrainNull.h" />
+    <ClInclude Include="Fergilnad Engine\TerrainRectangleArea.h" />
+    <ClInclude Include="Fergilnad Engine\TextureManager.h" />
+    <ClInclude Include="Fergilnad Engine\TextureManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\TimeManagerAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\TimeManager.h" />
+    <ClInclude Include="Fergilnad Engine\TRAIterator.h" />
+    <ClInclude Include="Fergilnad Engine\TrimBranchCommand.h" />
+    <ClInclude Include="Fergilnad Engine\Updatable.h" />
+    <ClInclude Include="Fergilnad Engine\UpdatableManager.h" />
+    <ClInclude Include="Fergilnad Engine\UpdatableAttorney.h" />
+    <ClInclude Include="Fergilnad Engine\UpdateDeregistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\UpdateRegistrationCommand.h" />
+    <ClInclude Include="Fergilnad Engine\VisualizeAABBCommand.h" />
+    <ClInclude Include="Fergilnad Engine\VisualizeBSphereCommand.h" />
+    <ClInclude Include="Fergilnad Engine\VisualizeCommandBase.h" />
+    <ClInclude Include="Fergilnad Engine\Visualizer.h" />
+    <ClInclude Include="Fergilnad Engine\VisualizerAttorney.h" />
+    <ClInclude Include="Freeze frame\FreezeTime.h" />
+    <ClInclude Include="MemTracker\Framework.h" />
+    <ClInclude Include="MemTracker\ProjectSettings.h" />
+    <ClInclude Include="User Code\Axis.h" />
+    <ClInclude Include="User Code\Bullet.h" />
+    <ClInclude Include="User Code\BulletAOE.h" />
+    <ClInclude Include="User Code\BulletAOEFactory.h" />
+    <ClInclude Include="User Code\BulletAOEObjectPool.h" />
+    <ClInclude Include="User Code\BulletFactory.h" />
+    <ClInclude Include="User Code\BulletObjectPool.h" />
+    <ClInclude Include="User Code\CentralGameManager.h" />
+    <ClInclude Include="User Code\ChaseAI.h" />
+    <ClInclude Include="User Code\Controller.h" />
+    <ClInclude Include="User Code\DisplayBase.h" />
+    <ClInclude Include="User Code\DummyAI.h" />
+    <ClInclude Include="User Code\EnemyBullet.h" />
+    <ClInclude Include="User Code\EnemyManager.h" />
+    <ClInclude Include="User Code\EnemyTank.h" />
+    <ClInclude Include="User Code\EnemyTankFactory.h" />
+    <ClInclude Include="User Code\EnemyTankObjectPool.h" />
+    <ClInclude Include="User Code\Frigate.h" />
+    <ClInclude Include="User Code\FrigateBSphere.h" />
+    <ClInclude Include="User Code\HealthDisplay.h" />
+    <ClInclude Include="User Code\HUD.h" />
+    <ClInclude Include="User Code\KeyboardController.h" />
+    <ClInclude Include="User Code\KeyStateTest.h" />
+    <ClInclude Include="User Code\LevelCompleteDisplay.h" />
+    <ClInclude Include="User Code\LevelManager.h" />
+    <ClInclude Include="User Code\LevelOne.h" />
+    <ClInclude Include="User Code\BaseAI.h" />
+    <ClInclude Include="User Code\LevelTransition.h" />
+    <ClInclude Include="User Code\LevelTwo.h" />
+    <ClInclude Include="User Code\LongRangeAI.h" />
+    <ClInclude Include="User Code\ObjectiveDisplay.h" />
+    <ClInclude Include="User Code\PatrolAI.h" />
+    <ClInclude Include="User Code\PlayerBullet.h" />
+    <ClInclude Include="User Code\PlayerManager.h" />
+    <ClInclude Include="User Code\PlayerTank.h" />
+    <ClInclude Include="User Code\RadarDisplay.h" />
+    <ClInclude Include="User Code\ReloadDisplay.h" />
+    <ClInclude Include="User Code\ReticleDisplay.h" />
+    <ClInclude Include="User Code\SceneDemo.h" />
+    <ClInclude Include="User Code\SceneOctreeTest.h" />
+    <ClInclude Include="User Code\SceneTest.h" />
+    <ClInclude Include="User Code\ScoreDisplay.h" />
+    <ClInclude Include="User Code\ScoreManager.h" />
+    <ClInclude Include="User Code\SpriteTest.h" />
+    <ClInclude Include="User Code\Tank.h" />
+    <ClInclude Include="User Code\TankCamera.h" />
+    <ClInclude Include="User Code\Tester.h" />
+    <ClInclude Include="User Code\TransitionController.h" />
+    <ClInclude Include="User Code\WorldPlane.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib" />
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CollidableClassDiagram.cd" />
+    <None Include="Fergilnad Engine\ClassDiagram.cd" />
+    <None Include="Fergilnad Engine\CollisionOctreeDiagram.cd" />
+    <None Include="Fergilnad Engine\TerrainClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

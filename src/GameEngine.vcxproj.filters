@@ -1,0 +1,1249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Fergilnad Resources\LoadResources.cpp">
+      <Filter>Application\Fergilnad Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Resources\GameInitialization.cpp">
+      <Filter>Application\Fergilnad Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Resources\GameEnd.cpp">
+      <Filter>Application\Fergilnad Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CameraManager.cpp">
+      <Filter>Application\Fergilnad Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Updatable.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Scene.cpp">
+      <Filter>Application\Fergilnad Engine\Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SceneRegistrationBroker.cpp">
+      <Filter>Application\Fergilnad Engine\Scene Management\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Drawable.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\DrawableManager.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\UpdatableManager.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\DrawDeregistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\DrawRegistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\AlarmableManager.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Alarmable.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\ModelManager.cpp">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\ShaderManager.cpp">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\TextureManager.cpp">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Inputable.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\AlarmDeregistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\AlarmRegistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\InputDeregistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\InputRegistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\UpdateDeregistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\UpdateRegistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\GameObjectEntryCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\GameObjectExitCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\GameObject.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Frigate.cpp">
+      <Filter>Application\User Code\Frigate</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\FrigateBSphere.cpp">
+      <Filter>Application\User Code\Frigate</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Axis.cpp">
+      <Filter>Application\User Code\World Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\WorldPlane.cpp">
+      <Filter>Application\User Code\World Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Tester.cpp">
+      <Filter>Application\User Code\Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\KeyStateTest.cpp">
+      <Filter>Application\User Code\Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Bullet.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletFactory.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletObjectPool.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\TimeManager.cpp">
+      <Filter>Application\Fergilnad Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Fergilnad.cpp">
+      <Filter>Application\Fergilnad Engine\Fergilnad</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\main.cpp">
+      <Filter>Application\Fergilnad Engine\Fergilnad</Filter>
+    </ClCompile>
+    <ClCompile Include="Freeze frame\FreezeTime.cpp">
+      <Filter>Application\Freeze Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SceneManager.cpp">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SceneDemo.cpp">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SceneTest.cpp">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SceneChangeCommand.cpp">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Tank.cpp">
+      <Filter>Application\User Code\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Collidable.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollidableGroup.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionManager.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionDeregistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionRegistrationCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionTestPairCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionTestSelfCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionVolumeBSphere.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\FGNMathTools.cpp">
+      <Filter>Application\Fergilnad Engine\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Visualizer.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\BSphereCmdPool.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\VisualizeBSphereCommand.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\BSphereCommandFactory.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\FergilnadSprite.cpp">
+      <Filter>Application\Fergilnad Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\ImageManager.cpp">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTank.cpp">
+      <Filter>Application\User Code\Tank Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SpriteFont.cpp">
+      <Filter>Application\Fergilnad Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SpriteString.cpp">
+      <Filter>Application\Fergilnad Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SpriteFontManager.cpp">
+      <Filter>Application\Fergilnad Engine\Asset Managers\SpriteFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\ScreenLog.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\ScreenLog</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ScoreDisplay.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\HUD.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SpriteTest.cpp">
+      <Filter>Application\User Code\Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\CentralGameManager.cpp">
+      <Filter>Application\User Code\Tank Game\Game Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ScoreManager.cpp">
+      <Filter>Application\User Code\Tank Game\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LevelOne.cpp">
+      <Filter>Application\User Code\Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ReloadDisplay.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerManager.cpp">
+      <Filter>Application\User Code\Tank Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyBullet.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerBullet.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyTank.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyTankFactory.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyTankObjectPool.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\KeyboardController.cpp">
+      <Filter>Application\User Code\Tank Game\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ChaseAI.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LongRangeAI.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PatrolAI.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyManager.cpp">
+      <Filter>Application\User Code\Tank Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\KeyboardEventManager.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Keyboard Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\SingleKeyEventManager.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Single Key Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\AlarmRestartCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LevelManager.cpp">
+      <Filter>Application\User Code\Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LevelTwo.cpp">
+      <Filter>Application\User Code\Scenes\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TransitionController.cpp">
+      <Filter>Application\User Code\Tank Game\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LevelTransition.cpp">
+      <Filter>Application\User Code\Scenes\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\LevelCompleteDisplay.cpp">
+      <Filter>Application\User Code\Scenes\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionVolumeAABB.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\VisualizeAABBCommand.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\AABBCommandPool.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\AABBCommandFactory.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionVolumeOBB.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\GodCam.cpp">
+      <Filter>Application\Fergilnad Engine\Tools\God Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\Terrain.cpp">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionOctree.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\OctreeNode.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\TerrainManager.cpp">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\CollisionTestTerrain.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\TerrainRectangleArea.cpp">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\TRAIterator.cpp">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SceneOctreeTest.cpp">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\HealthDisplay.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ObjectiveDisplay.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\RadarDisplay.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ReticleDisplay.cpp">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletAOE.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet\AOE Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletAOEFactory.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet\AOE Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletAOEObjectPool.cpp">
+      <Filter>Application\User Code\Tank Game\Bullet\AOE Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\TrimBranchCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\OctreePairTestCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Fergilnad Engine\OctreeSelfTestCommand.cpp">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{aef3393e-06a5-4f08-bf4a-3b6be12d1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\MemTracker">
+      <UniqueIdentifier>{9637794c-0581-4dd0-8f60-3dec243ffc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Resources">
+      <UniqueIdentifier>{e29a7662-eaae-459f-afec-d07aa3a526c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine">
+      <UniqueIdentifier>{54606ca0-db68-459a-9a27-92f1456c344e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers">
+      <UniqueIdentifier>{55d65fcc-28c1-4226-b623-12bc405e95ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code">
+      <UniqueIdentifier>{7e4d2034-3103-4eac-b277-2f4674d88460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Camera">
+      <UniqueIdentifier>{f58198d4-77bc-4f8f-a754-301e6a0a0b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject">
+      <UniqueIdentifier>{44e787eb-a743-4e28-9781-ec72795fabf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Scene Management">
+      <UniqueIdentifier>{e397e4cf-87eb-4c0b-abfd-9c0e36cbb597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Drawable">
+      <UniqueIdentifier>{77ff419f-d082-4b89-9f50-c3a5e10f5fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Updatable">
+      <UniqueIdentifier>{96a4670c-f261-4a05-8806-90decd6bc347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Scene Management\Registration">
+      <UniqueIdentifier>{63504bf1-e6b4-4472-bc72-a503d122ad4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Alarmable">
+      <UniqueIdentifier>{ff30d2b2-0e5f-4571-83fa-38f4f97be6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers\Model">
+      <UniqueIdentifier>{8f0ebddd-b0ac-43ac-b0f1-001700f21ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers\Shader">
+      <UniqueIdentifier>{1856f85d-e932-4fea-9f3d-31e0f4620472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers\Texture">
+      <UniqueIdentifier>{602793eb-153e-4ed8-afc3-dc384a9fa3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Inputable">
+      <UniqueIdentifier>{a92ad018-1af2-41cc-95cf-f55a065e4903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Alarmable\Registration">
+      <UniqueIdentifier>{520752bd-a4f8-4bf9-91d8-38d87d7bddb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Inputable\Registration">
+      <UniqueIdentifier>{d302f342-e81d-4302-8571-a2192419a016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Updatable\Registration">
+      <UniqueIdentifier>{09da9511-494f-43d4-ade7-68f845af0791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Registration">
+      <UniqueIdentifier>{ba3d84e1-7ebd-48aa-b5f6-70b3187c34f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Frigate">
+      <UniqueIdentifier>{4af9440d-1c9d-4d68-a294-d40268af9419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\World Plane">
+      <UniqueIdentifier>{f3912eed-b754-4062-80b8-4140b86b5013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tester">
+      <UniqueIdentifier>{5b3177ec-b5a6-413a-bdec-f72385c45822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Time">
+      <UniqueIdentifier>{fce9cf7f-6660-4ca2-a060-6e4fbd4d532e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Fergilnad">
+      <UniqueIdentifier>{8860d545-0aed-44c5-b35d-4bf5a5710ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Freeze Frame">
+      <UniqueIdentifier>{9d1f467f-0b99-4062-8adf-600b6f12720b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Scene Management\Scene Change">
+      <UniqueIdentifier>{8de10deb-3c9e-484a-b0fe-0610fce282bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Scenes">
+      <UniqueIdentifier>{318f2916-3343-408d-9842-e48cb68a2413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank">
+      <UniqueIdentifier>{862ec7da-7e25-46b3-99f9-ddbfc0890433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable">
+      <UniqueIdentifier>{281f87e9-74ae-4e58-89fe-f50f6ab14066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable\Registration">
+      <UniqueIdentifier>{5da5d4a6-b032-4133-9113-18e1b48401e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Drawable\Registration">
+      <UniqueIdentifier>{e619d2ab-c32d-45ba-98aa-f6e260382242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable\Test">
+      <UniqueIdentifier>{6db2afb5-3588-429b-abc0-fffa6a3f6154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable\Volumes">
+      <UniqueIdentifier>{e69098d2-3918-4fcb-bfc9-78c3659ca55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Tools">
+      <UniqueIdentifier>{2100d4f0-d926-4803-9599-e20d348e5636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Tools\Visualizer">
+      <UniqueIdentifier>{3dbb157b-b8d0-4751-8f4c-8cb938972f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere">
+      <UniqueIdentifier>{d689dbe9-c9da-4542-8edb-0b1b69aa361f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Sprite">
+      <UniqueIdentifier>{bc63e730-a33e-484c-aa3b-4ef8b92fe1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers\Image">
+      <UniqueIdentifier>{c2caa56a-ff55-482e-aa0d-024996a108eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers\SpriteFont">
+      <UniqueIdentifier>{448b5c8d-be42-4217-83fe-2dacee750657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Tools\ScreenLog">
+      <UniqueIdentifier>{4f26312e-fdad-4a09-a095-4408ed889d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Scenes\Levels">
+      <UniqueIdentifier>{ce86493f-9e49-4348-8128-b18e4fc8d4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Inputable\Keyboard Event">
+      <UniqueIdentifier>{14b9ffe0-aea9-4fad-bf43-5de7d9120832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Inputable\Single Key Event">
+      <UniqueIdentifier>{0cc6b8ab-828a-4841-8c73-787f3c83cb31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Scenes\Transition">
+      <UniqueIdentifier>{11bfd679-108a-45c2-a60d-d23e9e0e2846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Tools\Visualizer\AABB">
+      <UniqueIdentifier>{05d42919-2cff-4710-946c-8e19092fcd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable\Octree">
+      <UniqueIdentifier>{098f37ef-1da2-4af5-be0b-0955ae260f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Tools\God Cam">
+      <UniqueIdentifier>{ba54af1e-08f7-4f2a-82c9-fad9daa863c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Terrain">
+      <UniqueIdentifier>{bb2e0624-64ec-4e9a-bb1a-dda2d7509e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\Asset Managers\Terrain">
+      <UniqueIdentifier>{49be9642-b0b7-4358-82be-e360bf841e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game">
+      <UniqueIdentifier>{22ab35a0-c092-4fb1-a5bb-d95442ecb444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\HUD">
+      <UniqueIdentifier>{c76b4fb0-138a-4568-b5ca-dc17dffc29a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Game Manager">
+      <UniqueIdentifier>{b151888a-06b9-4ae1-b124-d4c9eb06ca7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Enemies">
+      <UniqueIdentifier>{634f31ec-25cc-4057-975b-bc9d7a3fb83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Enemies\Tank">
+      <UniqueIdentifier>{3bf0717b-45b1-41d5-bd0d-a58765d039d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Enemies\AI">
+      <UniqueIdentifier>{68e77a22-4af0-4de9-80ba-b3d52619b049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Controls">
+      <UniqueIdentifier>{5f71e3a5-2b57-4c75-83aa-b7c6d3df6e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Bullet">
+      <UniqueIdentifier>{c0cfb99e-cd36-43dc-a1a5-5c3585b0a990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Bullet\Enemy">
+      <UniqueIdentifier>{23a46858-987b-400c-9c79-a45bcc0e1d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Bullet\Player">
+      <UniqueIdentifier>{a3161bca-ddab-4d14-b019-a30d0380d0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Bullet\AOE Effect">
+      <UniqueIdentifier>{c3b6b021-f2e3-46fc-8a17-87da80c0011b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Player">
+      <UniqueIdentifier>{782ab54c-6ada-48a6-83a1-6f696223b11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Score">
+      <UniqueIdentifier>{eb87891f-d8dd-403c-8ff8-c7ff658d0a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Tank Game\Player\Cameras">
+      <UniqueIdentifier>{b3c7797e-e7c5-44cf-a31f-52d0d618bd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable\Octree\Commands">
+      <UniqueIdentifier>{a89deb0e-4b31-4127-9e3f-6cb2c18b02d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Fergilnad Engine\GameObject\Collidable\Octree\Test">
+      <UniqueIdentifier>{bb51d0fd-4b6e-433c-a5e0-d8dcfd765831}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\Framework.h">
+      <Filter>Application\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\ProjectSettings.h">
+      <Filter>Application\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CameraManager.h">
+      <Filter>Application\Fergilnad Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\GameObject.h">
+      <Filter>Application\Fergilnad Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Scene.h">
+      <Filter>Application\Fergilnad Engine\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Drawable.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Updatable.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CommandBase.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneRegistrationBroker.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\DrawableManager.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\UpdatableManager.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\DrawDeregistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\DrawRegistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Alarmable.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AlarmableManager.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneRegistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ModelManager.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ShaderManager.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TextureManager.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ModelManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TextureManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ShaderManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\UpdatableAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\DrawableAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AlarmableAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneAttorney.h">
+      <Filter>Application\Fergilnad Engine\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\RegistrationState.h">
+      <Filter>Application\Fergilnad Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Inputable.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\InputableAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AlarmDeregistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AlarmRegistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\InputDeregistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\InputRegistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\UpdateDeregistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\UpdateRegistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Updatable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\GameObjectEntryCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\GameObjectExitCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Frigate.h">
+      <Filter>Application\User Code\Frigate</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\FrigateBSphere.h">
+      <Filter>Application\User Code\Frigate</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Axis.h">
+      <Filter>Application\User Code\World Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\WorldPlane.h">
+      <Filter>Application\User Code\World Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletFactory.h">
+      <Filter>Application\User Code\Tank Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\KeyStateTest.h">
+      <Filter>Application\User Code\Tester</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Tester.h">
+      <Filter>Application\User Code\Tester</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Bullet.h">
+      <Filter>Application\User Code\Tank Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletObjectPool.h">
+      <Filter>Application\User Code\Tank Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TimeManager.h">
+      <Filter>Application\Fergilnad Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Fergilnad.h">
+      <Filter>Application\Fergilnad Engine\Fergilnad</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\FergilnadAttorney.h">
+      <Filter>Application\Fergilnad Engine\Fergilnad</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TimeManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Freeze frame\FreezeTime.h">
+      <Filter>Application\Freeze Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneManager.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SceneDemo.h">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SceneTest.h">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneNull.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneChangeNullCommand.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneChangeCommandBase.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SceneChangeCommand.h">
+      <Filter>Application\Fergilnad Engine\Scene Management\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Tank.h">
+      <Filter>Application\User Code\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TankCamera.h">
+      <Filter>Application\User Code\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionManager.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Collidable.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollidableGroup.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionDeregistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionRegistrationCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionTestCommandBase.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionTestPairCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionTestSelfCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionDispatch.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionDispatchBase.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionVolume.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeBSphere.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\FGNMathTools.h">
+      <Filter>Application\Fergilnad Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Color.h">
+      <Filter>Application\Fergilnad Engine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Visualizer.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\VisualizerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\VisualizeCommandBase.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\BSphereCmdPool.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\BSphereCommandFactory.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\VisualizeBSphereCommand.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\Bounding Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\FergilnadSprite.h">
+      <Filter>Application\Fergilnad Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ImageManager.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ImageManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTank.h">
+      <Filter>Application\User Code\Tank Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SpriteFontManager.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\SpriteFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SpriteFont.h">
+      <Filter>Application\Fergilnad Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SpriteString.h">
+      <Filter>Application\Fergilnad Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ScreenLog.h">
+      <Filter>Application\Fergilnad Engine\Tools\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SpriteFontManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\SpriteFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\ScreenLogAttorney.h">
+      <Filter>Application\Fergilnad Engine\Tools\ScreenLog</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerManager.h">
+      <Filter>Application\User Code\Tank Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\HUD.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ScoreManager.h">
+      <Filter>Application\User Code\Tank Game\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ScoreDisplay.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\CentralGameManager.h">
+      <Filter>Application\User Code\Tank Game\Game Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SpriteTest.h">
+      <Filter>Application\User Code\Tester</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LevelOne.h">
+      <Filter>Application\User Code\Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ReloadDisplay.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyBullet.h">
+      <Filter>Application\User Code\Tank Game\Bullet\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerBullet.h">
+      <Filter>Application\User Code\Tank Game\Bullet\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyTank.h">
+      <Filter>Application\User Code\Tank Game\Enemies\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyTankFactory.h">
+      <Filter>Application\User Code\Tank Game\Enemies\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyTankObjectPool.h">
+      <Filter>Application\User Code\Tank Game\Enemies\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Controller.h">
+      <Filter>Application\User Code\Tank Game\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\KeyboardController.h">
+      <Filter>Application\User Code\Tank Game\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BaseAI.h">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ChaseAI.h">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LongRangeAI.h">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PatrolAI.h">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyManager.h">
+      <Filter>Application\User Code\Tank Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollidableAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\GameObjectAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\HealthDisplay.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\InputEventType.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\KeyboardEventManager.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Keyboard Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\SingleKeyEventManager.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Inputable\Single Key Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AlarmRestartCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Alarmable\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LevelManager.h">
+      <Filter>Application\User Code\Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LevelTwo.h">
+      <Filter>Application\User Code\Scenes\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LevelTransition.h">
+      <Filter>Application\User Code\Scenes\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TransitionController.h">
+      <Filter>Application\User Code\Tank Game\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\LevelCompleteDisplay.h">
+      <Filter>Application\User Code\Scenes\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeAABB.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\VisualizeAABBCommand.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AABBCommandFactory.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\AABBCommandPool.h">
+      <Filter>Application\Fergilnad Engine\Tools\Visualizer\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\DummyAI.h">
+      <Filter>Application\User Code\Tank Game\Enemies\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeOBB.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionVolumeBoundingBoxBase.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionOctree.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\GodCam.h">
+      <Filter>Application\Fergilnad Engine\Tools\God Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\Terrain.h">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\OctreeNode.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TerrainManager.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TerrainManagerAttorney.h">
+      <Filter>Application\Fergilnad Engine\Asset Managers\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\CollisionTestTerrain.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TerrainRectangleArea.h">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TRAIterator.h">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TerrainNull.h">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SceneOctreeTest.h">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ObjectiveDisplay.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\DisplayBase.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\RadarDisplay.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ReticleDisplay.h">
+      <Filter>Application\User Code\Tank Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletAOE.h">
+      <Filter>Application\User Code\Tank Game\Bullet\AOE Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletAOEFactory.h">
+      <Filter>Application\User Code\Tank Game\Bullet\AOE Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletAOEObjectPool.h">
+      <Filter>Application\User Code\Tank Game\Bullet\AOE Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\TrimBranchCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\OctreeNodeAttorney.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\OctreeSelfTestCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\OctreePairTestCommand.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Fergilnad Engine\OctreeTestCommandBase.h">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree\Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fergilnad Engine\ClassDiagram.cd">
+      <Filter>Application\Fergilnad Engine</Filter>
+    </None>
+    <None Include="Fergilnad Engine\CollisionOctreeDiagram.cd">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable\Octree</Filter>
+    </None>
+    <None Include="CollidableClassDiagram.cd">
+      <Filter>Application\Fergilnad Engine\GameObject\Collidable</Filter>
+    </None>
+    <None Include="Fergilnad Engine\TerrainClassDiagram.cd">
+      <Filter>Application\Fergilnad Engine\Terrain</Filter>
+    </None>
+  </ItemGroup>
+</Project>

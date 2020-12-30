@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Collidable">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Collidable::VolumeType">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\Collidable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Collidable::OctreeData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fergilnad Engine\Collidable.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>JAAAAAICAIAIoACAQAACKAEDAAAAAQECAHkgMAAAiAA=</HashCode>
+      <FileName>Fergilnad Engine\Collidable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollidableGroup">
+    <Position X="2.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAgAAAAAAQAAAQAAAAACJAAAAAAggAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollidableGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAIQJCADAAQAAAAAAAAggCAAAAgoICAAIQ=</HashCode>
+      <FileName>Fergilnad Engine\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionVolume" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAIkAEAAAAAAAAAAgABgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionVolume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionVolumeAABB" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAABAABCAEAAIkIAAAMAACAAAAgABhAIAIBAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionVolumeAABB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionVolumeBSphere">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAABAAAAAAAAAAAIkAIAAMAAAAAAAgABgAAgJAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionVolumeBSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionVolumeOBB">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAABAAADAEAAIkIAAAIAAEAAAAgABhAIAIBEA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionVolumeOBB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDispatch&lt;C1, C2&gt;" Collapsed="true">
+    <Position X="0.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAhAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionDispatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDispatchBase" Collapsed="true">
+    <Position X="0.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionDispatchBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestCommandBase" Collapsed="true">
+    <Position X="6.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAgAAAAAgAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionTestCommandBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestPairCommand" Collapsed="true">
+    <Position X="4" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAwAEAAAIA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionTestPairCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestSelfCommand" Collapsed="true">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAwAAAAAIA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionTestSelfCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestTerrain" Collapsed="true">
+    <Position X="8.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAIA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionTestTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDeregistrationCommand" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAQAAAgAAAAAAAAAAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionRegistrationCommand" Collapsed="true">
+    <Position X="6" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAAgAQAgAAA=</HashCode>
+      <FileName>Fergilnad Engine\CollisionRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
